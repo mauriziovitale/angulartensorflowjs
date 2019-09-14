@@ -1,5 +1,5 @@
 {
-  "name": "angulartalk",
+  "name": "angulartensorflowjs",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,13 +12,23 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.3",
+    "@angular/cdk": "~7.3.7",
     "@angular/common": "~8.2.3",
     "@angular/compiler": "~8.2.3",
     "@angular/core": "~8.2.3",
+    "@angular/fire": "^5.2.1",
+    "@angular/flex-layout": "^8.0.0-beta.27",
     "@angular/forms": "~8.2.3",
+    "@angular/material": "^7.3.3",
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
+    "@tensorflow-models/coco-ssd": "^2.0.0",
+    "@tensorflow/tfjs-converter": "^1.2.9",
+    "@tensorflow/tfjs-core": "^1.2.9",
+    "angularfire2": "^5.2.1",
+    "firebase": ">= 5.5.7 <7",
+    "hammerjs": "^2.0.8",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -42,6 +52,11 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "@angular-devkit/architect": "<0.900 || ^0.900.0-0 || ^9.0.0-0",
+    "firebase-tools": "^6.10.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1"
   }
 }
