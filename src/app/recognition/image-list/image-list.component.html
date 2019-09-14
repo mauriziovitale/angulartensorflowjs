@@ -1,0 +1,15 @@
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutGap="0.8%">
+  <mat-card class="card-picture" *ngFor="let item of collectionImages | async">
+    <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+      <span class="name" fxFlex="90%">{{item.name}}</span>
+    </mat-card-title>
+    <img mat-card-image class="img" [src]="item.fileLocation" crossorigin="anonymous" width="200" height="130" #img>
+    <mat-chip-list>
+      <mat-chip *ngFor="let class of item.class;">{{class}}</mat-chip>
+    </mat-chip-list>
+    <mat-card-actions>
+      <button *ngIf="item.class.length === 0" (click)="recognize(item, img)" mat-button>
+        <mat-icon matPrefix>image_search</mat-icon><span>Recognize</span></button>
+    </mat-card-actions>
+  </mat-card>
+</div>

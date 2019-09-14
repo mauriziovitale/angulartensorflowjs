@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('angulartalk app is running!');
+    expect(page.getTitleText()).toEqual('angulartensorflowjs app is running!');
   });
 
   afterEach(async () => {
