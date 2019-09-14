@@ -1,0 +1,29 @@
+.dashboard-card {
+  max-width: 300px;
+}
+
+.dashboard-card-content {
+  width: 100%;
+  text-align: center;
+}
+
+.img {
+  margin-bottom: 18%;
+}
+.card-picture {
+  width: 18%;
+  margin: 10px;
+  margin-bottom: 2%;
+}
+.name {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.container {
+  flex-wrap: wrap;
+  width: 96%;
+  min-height: 100%;
+}
+.search-form {
+  width: 90%;
+}
