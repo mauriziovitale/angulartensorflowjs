@@ -1,9 +1,14 @@
-# Angulartalk
+# Angular and TensorflowJS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
+## Demo
 ![Watch the demo: Angular & TensorflowJs](demo/demo-angular-tensorflowjs.gif)
 
+## Prerequisite
+
+- Create a [Firebase project](https://firebase.google.com)
+- Replace the firebase configuration into the [envirorment.ts](src/environments/environment.ts)
 
 ## Development server
 
